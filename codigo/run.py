@@ -12,10 +12,10 @@ def crearFacebook():
     pais=str(input("Ingrse el pais donde reside el usuario: "))
     correo=str(input("ingrese el correo electrónico del usuario: "))
 
-    cadena=str("Resumen de cuenta creada\n")
-    cadena=(f"{cadena}Creando Facebook\nUsuario: {nombre}\nEdad: {edad}\nCiudad de residencia:{ciudad}"
-            f"\nPais de residencia: {pais}\n"
-                f"Correo electrónico: {correo}")
+    cadena=str("")
+    cadena=(f"{cadena}Resumen de cuenta creada:\nCreando Facebook\nUsuario: {nombre}\nEdad: {edad}\n"
+            f"Ciudad de residencia:{ciudad}"f"\nPais de residencia: {pais}\n"
+            f"Correo electrónico: {correo}")
     return cadena
 
 def crearTwitter():
@@ -28,11 +28,10 @@ def crearTwitter():
     idioma = str(input("Ingrese su idioma nativo: "))
     correo = str(input("Ingrese el correo electrónico del usuario: "))
 
-    cadena = str("Resumen de cuenta creada\n")
-    cadena = (
-        f"{cadena}Usuario: {nombreU}\nNombres:{nombres}\nApellidos: {apellidos} Edad: {edad}\nCiudad de residencia"
-            f":{ciudad}\nPais de residencia: {pais}\nIdioma: {idioma}"
-            f"Correo electrónico: {correo}\n")
+    cadena = str("")
+    cadena = (f"{cadena}Resumen de cuenta creada:\nUsuario: {nombreU}\nNombres:{nombres}\nApellidos: {apellidos}"
+              f" Edad: {edad}\nCiudad de residencia:{ciudad}\nPais de residencia: {pais}\nIdioma: {idioma}"
+              f"Correo electrónico: {correo}\n")
     print(cadena)
 
 def crearWhatsapp():
@@ -42,9 +41,9 @@ def crearWhatsapp():
     ciudad=str(input("Ingrese la ciudad donde reside el usuario: "))
     pais=str(input("Ingrese el pais donde reside el usuario: "))
 
-    cadena=str("Resumen de cuenta creada\n")
-    cadena=(f"{cadena}\nUsuario: {nombre}\nNumero de Telefono: {numeroTelefono}\n Edad: {edad}\n"
-            f"Ciudad de residencia:{ciudad}\nPais de residencia: {pais}\n")
+    cadena=str("")
+    cadena=(f"{cadena}Resumen de cuenta creada:\nUsuario: {nombre}\nNumero de Telefono: {numeroTelefono}\n Edad: "
+            f"{edad}\nCiudad de residencia:{ciudad}\nPais de residencia: {pais}\n")
     return cadena
 
 def crearTelegram():
@@ -55,10 +54,9 @@ def crearTelegram():
     hobby = str(input("Ingrese su area de interés: "))
 
 
-    cadena = str("Resumen de cuenta creada\n")
-    cadena = (
-            f"{cadena}Usuario: {nombreU}\nNúmero de teléfono: {numero}\nCiudad de residencia: "
-            f":{ciudad}\nPais de residencia: {pais}\nHobby favorito: {hobby}\n")
+    cadena = str("")
+    cadena = (f"{cadena}Resumen de cuenta creada:\nUsuario: {nombreU}\nNúmero de teléfono: {numero}\n"
+              f"Ciudad de residencia:{ciudad}\nPais de residencia: {pais}\nHobby favorito: {hobby}\n")
     print(cadena)
 
 def crearSignal():
@@ -68,9 +66,9 @@ def crearSignal():
     pais=str(input("Ingrese el pais donde reside el usuario: "))
     hobby=str(input("Ingrese su hobby preferido: "))
 
-    cadena=str("Resumen de cuenta creada\n")
-    cadena=(f"{cadena}Usuario: {nombre}\nNumero de Telefono: {numeroTelefono}\nCiudad de residencia:{ciudad}\n"
-            f"Pais de residencia: {pais}\nHobby Principal: {hobby}\n")
+    cadena=str("")
+    cadena=(f"{cadena}Resumen de cuenta creada: \nUsuario: {nombre}\nNumero de Telefono: {numeroTelefono}\n"
+            f"Ciudad de residencia:{ciudad}\nPais de residencia: {pais}\nHobby Principal: {hobby}\n")
     return cadena
 
 def crearInstagram():
@@ -79,8 +77,8 @@ def crearInstagram():
     edad = int(input("Ingrese la edad del usuario: "))
     correo = str(input("ingrese el correo electrónico del usuario: "))
 
-    cadena = str("Resumen de cuenta creada\n")
-    cadena = (f"{cadena}Usuario: {nombreU}\nCiudad de residencia"
+    cadena = str("")
+    cadena = (f"{cadena}Resumen de cuenta creada:\nUsuario: {nombreU}\nCiudad de residencia"
               f":{ciudad}\nEdad: {edad}\nCorreo electrónico: {correo}\n")
     print(cadena)
 
@@ -88,8 +86,8 @@ def crearFlickr():
     nombre=str(input(f"Creando Flickr\nIngrese el nombre del usuario: "))
     correo=str(input("Ingrese su correo: "))
 
-    cadena=str("Resumen de cuenta creada\n")
-    cadena=(f"{cadena}Usuario: {nombre}\nCorreo Electrónico: {correo}\n")
+    cadena=str("")
+    cadena=(f"{cadena}Resumen de cuenta creada:\nUsuario: {nombre}\nCorreo Electrónico: {correo}\n")
     return cadena
 
 if __name__ == "__main__":
