@@ -32,7 +32,7 @@ def crearTwitter():
     cadena = (
         f"{cadena}Usuario: {nombreU}\nNombres:{nombres}\nApellidos: {apellidos} Edad: {edad}\nCiudad de residencia"
             f":{ciudad}\nPais de residencia: {pais}\nIdioma: {idioma}"
-            f"Correo electrónico: {correo}\n------------------------------")
+            f"Correo electrónico: {correo}\n")
     print(cadena)
 
 def crearWhatsapp():
