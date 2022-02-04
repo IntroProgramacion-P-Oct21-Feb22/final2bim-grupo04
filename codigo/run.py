@@ -1,23 +1,11 @@
-"""
-    Proyecto Bimestral
-    Segundo Bimestre
-    
-    Problemática:
-"""
-
-
 def main():
     bandera = True
     contador = 0
     while bandera:
-        num = int(input("Ingrese el 1 para crear cuenta de Facebook\n"
-                        "Ingrese el 2 para crear cuenta de twitter\n"
-                        "Ingrese el 3 para crear cuenta de Whatsapp\n"
-                        "Ingrese el 4 para crear cuenta de Telegram\n"
-                        "Ingrese el 5 para crear cuenta de Signal\n"
-                        "Ingrese el 6 para crear cuenta de Instagram\n"
-                        "Ingrese el 7 para crear cuenta de Flickr\n"
-                        "Ingrese 0 para dejar de crear cuentas\n"))
+        num = int(input("Ingrese el 1 para crear cuenta             deFacebook\nIngrese el 2 para crear "
+                        "cuenta de twitter\nIngrese el 3 para crear cuenta de Whatsapp\nIngrese el 4 para crear "
+                        "cuenta de Telegram\nIngrese el 5 para crear cuenta de Signal\nIngrese el 6 para crear "
+                        "cuenta de Instagram\nIngrese el 7 para crear cuenta de Flickr\nIngrese 0 para dejar de crear cuentas\n"))
         if num == 1:
             print(crearFacebook())
         elif num == 2:
@@ -40,7 +28,6 @@ def main():
 
     cadena = "\nNumero de cuentas creadas: %d --- %s\n" % (contador, obtenerMensaje(contador))
     print(cadena)
-
 
 
 def crearFacebook():
@@ -137,12 +124,13 @@ def crearFlickr():
 
 def obtenerMensaje(a):
     mensajeFinal = ["Campaña con poca afluencia", "Campaña moderada siga adelante", "Excelente campaña"]
-
-    if (a >= 1 and a <= 5):
+    
+    if(a >=1 and a<=5):
         return (mensajeFinal[0])
-    elif (a >= 6 and a <= 15):
+    elif(a >=6 and a<=15):
         return (mensajeFinal[1])
-    elif (a >= 16):
+    elif(a >=16):
         return (mensajeFinal[2])
+    
 
 print(main())
