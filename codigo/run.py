@@ -2,28 +2,32 @@ def main():
     bandera = True
     contador = 0
     while bandera:
-        num = int(input("Ingrese el 1 para crear cuenta             deFacebook\nIngrese el 2 para crear "
-                        "cuenta de twitter\nIngrese el 3 para crear cuenta de Whatsapp\nIngrese el 4 para crear "
-                        "cuenta de Telegram\nIngrese el 5 para crear cuenta de Signal\nIngrese el 6 para crear "
-                        "cuenta de Instagram\nIngrese el 7 para crear cuenta de Flickr\nIngrese 0 para dejar de crear cuentas\n"))
-        if num == 1:
+        eleccion = int(input("Ingrese el 1 para crear cuenta de Facebook\n"
+                        "Ingrese el 2 para crear cuenta de twitter\n"
+                        "Ingrese el 3 para crear cuenta de Whatsapp\n"
+                        "Ingrese el 4 para crear cuenta de Telegram\n"
+                        "Ingrese el 5 para crear cuenta de Signal\n"
+                        "Ingrese el 6 para crear cuenta de Instagram\n"
+                        "Ingrese el 7 para crear cuenta de Flickr\n"
+                        "Ingrese 0 para dejar de crear cuentas\n"))
+        if eleccion  == 1:
             print(crearFacebook())
-        elif num == 2:
+        elif eleccion  == 2:
             crearTwitter()
-        elif num == 3:
+        elif eleccion  == 3:
             print(crearWhatsapp())
-        elif num == 4:
+        elif eleccion  == 4:
             crearTelegram()
-        elif num == 5:
+        elif eleccion  == 5:
             print(crearSignal())
-        elif num == 6:
+        elif eleccion  == 6:
             crearInstagram()
-        elif num == 7:
+        elif eleccion  == 7:
             print(crearFlickr())
-        elif (num == 0 or num < 0 or num > 7):
+        elif (eleccion  == 0 or eleccion  < 0 or eleccion  > 7):
             bandera = False
             print("Proceso de creacion de cuentas finalizado")
-        if 1 <= num <= 7:
+        if 1 <= eleccion  <= 7:
             contador = contador + 1
 
     cadena = "\nNumero de cuentas creadas: %d --- %s\n" % (contador, obtenerMensaje(contador))
