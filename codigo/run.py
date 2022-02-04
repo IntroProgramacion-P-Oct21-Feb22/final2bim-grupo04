@@ -42,6 +42,7 @@ def main():
     print(cadena)
 
 
+
 def crearFacebook():
     nombre = str(input(f"Creando Facebook\nIngrese el nombre del usuario: "))
     edad = str(input("Ingrese la edad del usuario: "))
