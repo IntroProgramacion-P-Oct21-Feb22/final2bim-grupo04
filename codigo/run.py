@@ -188,4 +188,4 @@ def obtenerMensaje(a): # Iniciamos la funcion "obtenerMensaje" y renombramos la 
         return ("No ha creado cuentas")
 
 
-print(main()) #Imprimimos en pantalla la función principal "main"
+print(main()) # Se ejecuta la fucnion princial
