@@ -1,6 +1,9 @@
 # 2 Bimestre 
 ## Proyecto Python
+### Integrantes:
+ESTRADA CUENCA FRANCISCO JAVIER
 
+YUNGA MANZANILLAS VALERIA ALEXANDRA
 ***
 
 ### Problemática a resolver
